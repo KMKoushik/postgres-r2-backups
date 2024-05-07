@@ -1,0 +1,26 @@
+{
+  "name": "railway-pg-s3-backup",
+  "version": "0.0.1",
+  "description": "A simple Node app to backup PostgreSQL databases to an R2 bucket",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "author": "Faraz Patankar",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.529.1",
+    "@aws-sdk/lib-storage": "^3.529.1",
+    "cron": "^3.1.7",
+    "date-fns": "^3.6.0",
+    "dotenv": "^16.4.5",
+    "envsafe": "^2.0.3",
+    "filesize": "^10.1.0"
+  },
+  "keywords": []
+}
